@@ -105,7 +105,7 @@ function exercise9() {
 	// let's use the acc(umulator) as an accumulator, return the sum of all hours the courses take combined
 	// (you'll want to use parseInt())
 	return courses.reduce((acc, current) => {
-		acc += parseInt(current.hours);
+		acc += current.hours;
 		return acc;
 	}, 0);
 }
